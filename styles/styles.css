@@ -1,0 +1,41 @@
+/* font-family: 'Oleo Script',
+cursive;
+font-family: 'Raleway',
+sans-serif;
+font-family: 'Roboto',
+sans-serif; */
+
+/* ПАЛИТРА цветов: */
+.accent-color {
+    color: #2196F3;
+}
+
+.main-bgd {
+    background-color: #FFFFFF;
+}
+
+/* Цвета фонов */
+.bgd {
+    background-color: #2F303A;
+}
+
+/* Цвета шрифтов */
+.header-text-color {
+    color: #212121;
+}
+
+.main-txt-color {
+    color: #757575
+}
+
+.logo-txt-color {
+    color: #000000;
+}
+
+.hero-txt-color {
+    color: #FFFFFF;
+}
+
+.adress-color {
+    color: rgba(255, 255, 255, 0.6);
+}
