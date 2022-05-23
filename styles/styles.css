@@ -31,11 +31,7 @@ body {
 .link {
 
     text-decoration: none;
-}
 
-.link:hover,
-.link:focus {
-    color: var(--accent-color);
 }
 
 .logo {
@@ -112,6 +108,7 @@ body {
     letter-spacing: 1.9;
     border-radius: 4px;
     padding: 10px 32px 10px 32px;
+    cursor: pointer;
 }
 
 .title {
@@ -234,13 +231,15 @@ body {
     letter-spacing: 1.6;
     border-radius: 4px;
     margin: 4px;
+    cursor: pointer;
 
     color: var(--title-color);
     background-color: #F5F4FA;
 
+
+
 }
 
-.filter-button:hover,
 .filter-button:focus {
     background-color: var(--accent-color);
     color: #FFFFFF;
@@ -283,7 +282,9 @@ body {
 
 .link.mail {
     color: var(--primery-text-color);
+
 }
+
 
 .mainpage {
     margin: auto;
@@ -309,4 +310,18 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
 
 
+}
+
+.link:hover,
+.link:focus {
+    color: var(--accent-color);
+
+}
+
+.worklink {
+    text-decoration: none;
+    color: var(--primery-text-color);
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 1.9;
 }
